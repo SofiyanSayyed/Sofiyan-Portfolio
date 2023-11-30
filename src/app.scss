@@ -3,14 +3,17 @@ html{
     scroll-behavior: smooth;
 }
 
+$themeColor1 : #0c0c1d;
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
 
+}   
+    
 body{
-    background-color: #0c0c1d;
+    background-color: $themeColor1;
     color: lightgray;
 }
 
@@ -21,5 +24,32 @@ a{
 
 section{
     height: 100vh;
-    scroll-snap-align: center;
+    padding-top: 30px;
+    scroll-snap-align: center;  
+    max-width: 1000px;
+
 }
+
+h1{
+    font-size: 90px;
+}
+h2{
+    font-size: 55px;
+}
+
+button{
+    padding: 15px 17px;
+    background-color: inherit;
+    color: white;
+    border: 1px solid white;
+    border-radius: 9px;
+    cursor: pointer;
+    transition: 0.5s;
+
+    &:hover{
+        background-color: white;
+        color: $themeColor1;
+    }
+}
+
+$section-padding: 0px 120px;

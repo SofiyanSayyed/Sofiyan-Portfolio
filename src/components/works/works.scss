@@ -1,0 +1,30 @@
+@import "../../app.scss";
+
+.work{
+    // width: 100%;
+    padding-top: 20px;
+
+    .mainHeading{
+        // min-width: 100vw;
+        text-align: center;
+        border-bottom: 5px solid orangered;
+
+    }
+
+    .details{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        margin-top: 40px;
+        // min-width: 50%;
+    }
+
+    h2{
+        // margin: 10px 29px;
+    }
+
+    .workImg{
+        min-width: 50%;
+    }
+}

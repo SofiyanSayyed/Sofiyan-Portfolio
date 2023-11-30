@@ -1,0 +1,40 @@
+@import "../../app.scss";
+//fix navbar width
+.navbar{
+    width: 100%;    
+    padding: $section-padding;
+    background-color: $themeColor1;
+    position: absolute; 
+    
+
+    .wrapper{
+        width: 100%;
+        margin: auto;
+        height: 100%;
+        max-width: 1000px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        span{
+            font-size: 20px;
+            color: lightgray;
+        }
+
+        .social{
+            margin-left: auto;
+            width: 15%;
+            display: flex;
+            justify-content: space-around;
+
+            a{
+                padding: 5px;
+            }
+            
+            img{
+                width: 15px;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,34 @@
+@import "../../app.scss";
+//fixt hero section width
+.hero{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding : $section-padding;
+
+    div:nth-child(1){
+        max-width: 500px;
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+    h3{
+        font-size: 30px;
+
+    }
+    h1{
+        // font-size: 80px;
+        margin-top: 40px;
+    }
+
+    .btns{
+        margin-top: 40px;
+    }
+
+    button:nth-child(2){
+        margin-left: 15px;
+    }
+
+
+
+}
